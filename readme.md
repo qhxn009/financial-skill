@@ -58,26 +58,26 @@
 
 ```
 financial-skill/
-├── readme.md                                              # 项目说明文档
-├── workspaces/                                            # 智能体工作区（核心配置）
-│   ├── AGENTS.md                                          # 智能体角色定义与技能框架
-│   ├── PROFILE.md                                         # 用户画像配置
-│   └── SOUL.md                                            # 智能体人格与价值观设定
-├── financial-analysis/                                    # 核心分析技能
-│   ├── finnews/                                           # 金融新闻技能
-│   │   └── SKILL.md                                       # 新闻资讯SKILL
-│   └── futures-analyst/                                   # 期货分析师收评技能
-│       ├── SKILL.md                                       # 技能定义（触发条件、执行流程、数据规范）
-│       ├── CODE_WIKI.md                                   # 代码百科（架构、模块职责、依赖关系）
-│       ├── references/                                    # 📚 参考知识库
-│       │   ├── Exchanges.md                               # 全球交易所与央行官方链接索引
-│       │   └── Ratio.md                                   # 大宗商品重要比值/价差关系知识库
-│       └── scripts/                                       # 🔧 执行脚本
-│           ├── fetch_quotes.py                            # 期货行情数据采集
-│           ├── fetch_calendar.py                          # 财经日历数据获取
-│           ├── report_generator.py                        # HTML 报告生成引擎
-│           └── analysis.json                              # 板块分析数据模板
-└── equity-research/                                       # 证券研究技能
-    └── sector-comparator/                                 # 行业/主题比较器
-        └── SKILL.md                                       # 四维分析框架（景气/估值/筹码/资金匹配）
+├── readme.md                            # 项目说明文档
+├── workspaces/                          # 智能体工作区（核心配置）
+│   ├── AGENTS.md                        # 智能体角色定义与技能框架
+│   ├── PROFILE.md                       # 用户画像配置
+│   └── SOUL.md                          # 智能体人格与价值观设定
+├── financial-analysis/                  # 核心分析技能
+│   ├── finnews/                         # 金融新闻技能
+│   │   └── SKILL.md                     # 新闻资讯SKILL
+│   └── futures-analyst/                 # 期货分析师收评技能
+│       ├── SKILL.md                     # 技能定义（触发条件、执行流程、数据规范）
+│       ├── CODE_WIKI.md                 # 代码百科（架构、模块职责、依赖关系）
+│       ├── references/                  # 参考知识库
+│       │   ├── Exchanges.md             # 全球交易所与央行官方链接索引
+│       │   └── Ratio.md                 # 大宗商品重要比值/价差关系知识库
+│       └── scripts/                     # 执行脚本
+│           ├── fetch_quotes.py          # 期货行情数据采集
+│           ├── fetch_calendar.py        # 财经日历数据获取
+│           ├── report_generator.py      # HTML 报告生成引擎
+│           └── analysis.json            # 板块分析数据模板
+└── equity-research/                     # 证券研究技能
+    └── sector-comparator/               # 行业/主题比较器
+        └── SKILL.md                     # 四维分析框架（景气/估值/筹码/资金匹配）
 ```
