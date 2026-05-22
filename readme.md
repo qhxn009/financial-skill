@@ -58,7 +58,6 @@
 
 ```
 financial-skill/
-├── readme.md                            # 项目说明文档
 ├── workspaces/                          # 智能体工作区（核心配置）
 │   ├── AGENTS.md                        # 智能体角色定义与技能框架
 │   ├── PROFILE.md                       # 用户画像配置
