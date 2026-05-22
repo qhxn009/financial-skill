@@ -1,0 +1,80 @@
+{
+  "黑色系": {
+    "chain": {
+      "upstream_analysis": "铁矿石方面，澳巴主流矿山发运总量环比小幅回升，港口库存持续去化，为矿价形成底部支撑。焦煤焦炭高位运行，提供成本支撑。",
+      "midstream_analysis": "本周螺纹钢主力10合约报3193点周涨1.8%，热卷主力报3397点周涨1.4%。热卷主力持仓历史首超螺纹。库存连续六周下降，本周去化62.12万吨。供给端释放克制，产量仅增7.89万吨。",
+      "downstream_analysis": "一线地产二手房成交好转。五一假期终端节前补库需求释放。超长期特别国债资金8000亿支持1459个项目 + 2000亿设备更新 + 2500亿以旧换新。基建项目集中开工。",
+      "logic_chain": "特别国债 → 基建需求 → 库存加速去化 → 钢价支撑"
+    },
+    "news": [
+      {"title": "热卷主力持仓首超螺纹", "source": "兰格钢铁网", "impact": "neutral", "interpretation": "资金抱团板材，历史首次"},
+      {"title": "本周五大品种去库62万吨", "source": "兰格钢铁网", "impact": "up", "interpretation": "需求改善明显"},
+      {"title": "超长期特别国债1.3万亿", "source": "财政部", "impact": "up", "interpretation": "长期需求利好"}
+    ],
+    "positions": [
+      {"seat": "永安期货", "long_change": 4521, "short_change": -1230, "net_change": 5751}
+    ],
+    "viewpoints": [
+      {"type": "bull", "content": "需求改善、去库加速"},
+      {"type": "neutral", "content": "螺纹3200压力"},
+      {"type": "bear", "content": "高价成交放缓"}
+    ]
+  },
+  "有色金属": {
+    "chain": {
+      "upstream_analysis": "铜方面，TC加工费持续低迷，冶炼厂原料偏紧。镍方面，印尼镍铁回流冲击持续。",
+      "midstream_analysis": "沪铜主力102780元/吨，沪镍148770元/吨，沪铝24850元/吨。",
+      "downstream_analysis": "地产需求边际改善，汽车需求分化，电力投资高增。",
+      "logic_chain": "供应偏紧 + 需求改善 → 铜价支撑"
+    },
+    "news": [
+      {"title": "伦镍连涨", "source": "市场资讯", "impact": "up", "interpretation": "需求改善"}
+    ]
+  },
+  "贵金属": {
+    "chain": {
+      "upstream_analysis": "本周金价波动加剧，周跌3.16%。大摩下调预期至5200美元。",
+      "midstream_analysis": "COMEX黄金4725.4美元，白银75.685美元。",
+      "downstream_analysis": "央行购金放缓，地缘溢价消退。",
+      "logic_chain": "地缘 + 利率 + 美元指数→ 金价波动"
+    },
+    "news": [
+      {"title": "金价周跌3.16%", "source": "新浪财经", "impact": "down", "interpretation": "短线回调"},
+      {"title": "大摩下调预期", "source": "摩根士丹利", "impact": "down", "interpretation": "目标5200美元"},
+      {"title": "阿塞拜疆减持22吨", "source": "央行", "impact": "down", "interpretation": "央行购金放缓"}
+    ]
+  },
+  "能源化工": {
+    "chain": {
+      "upstream_analysis": "原油94.88美元，PX偏强，PTA检修增加。",
+      "midstream_analysis": "PTA供需改善，远月预期转暖。",
+      "downstream_analysis": "聚酯负荷85-86%，五一备货需求。",
+      "logic_chain": "检修增加 → 去库预期 → PTA支撑"
+    },
+    "news": [
+      {"title": "PTA检修增加", "source": "市场资讯", "impact": "up", "interpretation": "远月正套"}
+    ]
+  },
+  "油脂油料": {
+    "chain": {
+      "upstream_analysis": "美豆播种12%，天气有利。巴西大豆收割尾声。",
+      "midstream_analysis": "豆粕2977元，豆油8536元，棕榈油9777元。",
+      "downstream_analysis": "马棕油出口降30%，消费疲弱。",
+      "logic_chain": "油脂弱 + 蛋白强 → 买粕卖油"
+    },
+    "news": [
+      {"title": "马棕油出口大降", "source": "市场资讯", "impact": "down", "interpretation": "消费疲软"}
+    ]
+  },
+  "农产品": {
+    "chain": {
+      "upstream_analysis": "玉米2422元，生猪11405元。猪粮比4.71，养殖盈亏边缘。",
+      "midstream_analysis": "猪价反弹，北方惜售。鸡蛋近月走强。",
+      "downstream_analysis": "产能去化中，消费边际改善。",
+      "logic_chain": "供需改善 → 猪价支撑"
+    },
+    "news": [
+      {"title": "猪价反弹", "source": "市场资讯", "impact": "up", "interpretation": "北方惜售"}
+    ]
+  }
+}
